@@ -51,13 +51,16 @@ streamlit run app.py
 # http://localhost:8501
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screensho<img width="1851" height="819" alt="Screenshot 2025-08-02 061419" src="https://github.com/user-attachments/assets/200de7a1-9d51-4c6e-ab3c-d0e8d0963a38" />
+t1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Add ca<img width="1591" height="804" alt="Screenshot 2025-08-02 061428" src="https://github.com/user-attachments/assets/942ccdcb-d438-43fe-9ba7-566ae8dfc4e1" />
+ption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screen<img width="1919" height="830" alt="Screenshot 2025-08-02 064355" src="https://github.com/user-attachments/assets/a9d8ae95-b384-47c4-935a-67c016c28a35" />
+shot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -80,49 +83,36 @@ Results displayed:
 
 Step 1: User Interface (Streamlit)
 
-Clean web interface with file uploader
-
-Malayalam proverb displayed prominently
-
-Upload button with cow emoji
+Clean, intuitive web interface with file uploader
+Malayalam proverb displayed prominently at the top
+Signature upload button decorated with cow emoji 🐄
+Responsive design that works on all devices
 
 Step 2: Image Processing Pipeline
 
-Streamlit receives uploaded image file
+Image Reception: Streamlit handles uploaded image files seamlessly
+Grayscale Conversion: OpenCV transforms images for analysis
+Teeth Detection: Advanced thresholding techniques detect white regions (your precious teeth!)
+Contour Analysis: Sophisticated algorithms identify tooth-like shapes and count them
 
-OpenCV converts image to grayscale
+Step 3: "AI Analysis" (Fake but Hilariously Accurate)
 
-Image thresholding to detect white regions (teeth)
-
-Contour detection to identify tooth-like shapes
-
-Step 3: "AI Analysis" (Fake but Funny)
-
-Count detected white blobs as "teeth"
-
-Generate random confidence scores
-
-Create fake dental metrics and personality profiles
-
-Calculate "proverb violation level"
+Tooth Counting: Counts detected white blobs as individual teeth
+Confidence Scoring: Generates convincingly random confidence percentages
+Proverb Violation Calculator: Measures how much you're disappointing your Malayalam ancestors
 
 Step 4: Results Generation
 
-Overlay numbered teeth on original image
-
-Display humorous analysis with charts
-
-Show ancestral disappointment meter
-
-Generate shareable results card
+Visual Overlay: Numbers each detected tooth on your original image
+Humorous Analysis: Displays entertaining charts and statistics
+Ancestral Disappointment Meter: Shows exactly how much shame you've brought to your family
+Shareable Results Card: Generate beautiful cards to share your dental destiny with friends
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
+https://youtu.be/i0vF04CD0Wo
 # Hosted Link
-[Add any extra demo materials/links]
+https://danam-kittiya-pashuvinta-pall-ennano-ngzp49tnakgrcjmsggvzqs.streamlit.app/
 
 ## Team Contributions
 - Rohith Chandran: Computer vision implementation with OpenCV for teeth detection algorithm, Training data collection and preparation - gathered cow mouth images, labeled teeth positions, created dataset for ML model,Machine learning model training
