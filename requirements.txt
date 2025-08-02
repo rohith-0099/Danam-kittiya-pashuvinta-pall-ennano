@@ -1,3 +1,5 @@
+streamlit
 ultralytics
-libgl1-mesa-glx
-opencv-python-headless==4.8.1.78
+numpy
+opencv-python-headless
+Pillow
