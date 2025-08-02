@@ -1,5 +1,3 @@
-<img width="1919" height="750" alt="Screenshot 2025-08-02 061409" src="https://github.com/user-attachments/assets/f4aa1220-75c4-48d0-b8a8-809244821d5c" /><img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
-
 
 # ദാനം കിട്ടിയ പശുവിൻ്റെ പല്ല് എണ്ണണോ 🐄 🎯
 
