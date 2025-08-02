@@ -1,4 +1,4 @@
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+<img width="1919" height="750" alt="Screenshot 2025-08-02 061409" src="https://github.com/user-attachments/assets/f4aa1220-75c4-48d0-b8a8-809244821d5c" /><img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
 # ദാനം കിട്ടിയ പശുവിൻ്റെ പല്ല് എണ്ണണോ 🐄 🎯
@@ -55,9 +55,8 @@ streamlit run app.py
 t1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add ca<img width="1591" height="804" alt="Screenshot 2025-08-02 061428" src="https://github.com/user-attachments/assets/942ccdcb-d438-43fe-9ba7-566ae8dfc4e1" />
-ption explaining what this shows*
+![Screenshot2](Add screenshot 2 here with proper name)![Uploading Screenshot 2025-08-02 061409.png…]()
+
 
 ![Screen<img width="1919" height="830" alt="Screenshot 2025-08-02 064355" src="https://github.com/user-attachments/assets/a9d8ae95-b384-47c4-935a-67c016c28a35" />
 shot3](Add screenshot 3 here with proper name)
