@@ -1,9 +1,4 @@
 streamlit
 ultralytics
-numpy
 opencv-python
-Pillow
-base64
-glob
-time
-os
+numpy
