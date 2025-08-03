@@ -7,12 +7,14 @@ import glob
 import time
 import base64
 
+
 # Configure the page with fun theme
 st.set_page_config(
-    page_title="🐄 Moo-nificent Teeth Counter!", 
+    page_title="ദാനം കിട്ടിയ പശുവിൻ്റെ പല്ല് എണ്ണണോ", 
     page_icon="🦷", 
     layout="wide"
 )
+
 
 def get_gif_base64(gif_path):
     """Convert local GIF to base64 for embedding"""
@@ -23,6 +25,7 @@ def get_gif_base64(gif_path):
             return gif_base64
     except:
         return None
+
 
 def show_loading_screen():
     """Display loading screen with blur effect and custom GIF"""
@@ -67,14 +70,14 @@ def show_loading_screen():
         loading_html = f"""
         <div class="loading-container">
             <img src="data:image/gif;base64,{gif_base64}" class="loading-gif" alt="Loading...">
-            <div class="loading-text">🐄 Preparing the Moo-nificent Experience... 🦷</div>
+            <div class="loading-text">🐄 Preparing the Experience... 🦷</div>
         </div>
         """
     else:
         loading_html = """
         <div class="loading-container">
             <div style="font-size: 48px; margin-bottom: 20px;">🐄</div>
-            <div class="loading-text">🐄 Preparing the Moo-nificent Experience... 🦷</div>
+            <div class="loading-text">🐄 Preparing the Experience... 🦷</div>
         </div>
         """
     
@@ -86,6 +89,7 @@ def show_loading_screen():
     
     # Clear the loading screen
     loading_placeholder.empty()
+
 
 @st.cache_resource
 def load_model():
@@ -103,6 +107,7 @@ def load_model():
     # Fallback to base model
     return YOLO('yolov8n.pt')
 
+
 def main():
     # Initialize session state for loading
     if 'loading_done' not in st.session_state:
@@ -114,8 +119,8 @@ def main():
         st.session_state.loading_done = True
         st.rerun()  # ✅ FIXED: Changed from st.experimental_rerun()
     
-    # Fun header with animations
-    st.title("🐄 MOO-NIFICENT TEETH COUNTER! 🦷")
+    # Main title with Malayalam text
+    st.markdown("# 🐄 ദാനം കിട്ടിയ പശുവിൻ്റെ പല്ല് എണ്ണണോ 🦷")
     st.markdown("### *Where every moo meets its perfect smile!* 😄")
     
     # Add some fun cow facts in sidebar
@@ -227,6 +232,7 @@ def main():
     st.markdown("---")
     st.markdown("### 🎉 Made with ❤️ and a lot of MOO-tivation! 🐄")
     st.markdown("*Remember: A cow's smile is worth a thousand moos!* 😊")
+
 
 if __name__ == "__main__":
     main()
