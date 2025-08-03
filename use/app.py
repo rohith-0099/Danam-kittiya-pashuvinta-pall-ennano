@@ -9,7 +9,7 @@ import base64
 
 # Configure the page with fun theme
 st.set_page_config(
-    page_title="🐄 Moo-nificent Teeth Counter!", 
+    page_title="ദാനം കിട്ടിയ പശുവിൻ്റെ പല്ല് എണ്ണണോ🐄!", 
     page_icon="🦷", 
     layout="wide"
 )
@@ -230,3 +230,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
